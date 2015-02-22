@@ -20,7 +20,7 @@
 setwd("/Users/nathansmith/Downloads/")
 ## check out the files in the zip folder before unzipping them
 unzip("getdata_projectfiles_UCI HAR Dataset.zip", list = TRUE)
-## export to my project directory
+## export to project directory
 unzip("getdata_projectfiles_UCI HAR Dataset.zip", exdir = "/Users/nathansmith/GetCleanData1/")
 setwd("/Users/nathansmith/GetCleanData1/")
 list.files(getwd())
