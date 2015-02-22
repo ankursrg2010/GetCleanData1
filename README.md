@@ -8,5 +8,5 @@ CodeBook.md will explain step by step how the run_analysis.r script works and gi
 
 2. Unzip the contents into a directory and save the run_analysis.r script in that same directory. Set your working directory so you can access these files. 
 
-3. Use source("run_analysis.R") and then you will find MeasurementMeans.txt (282 KB) and ActivityMeasurements.txt (10.1 MB) in your working directory. MeasurentMeans.txt is the final product of the script and holds the mean of each measurement by Subject and Activity. 
+3. Use source("run_analysis.R") which will produce MeasurementMeans.txt (282 KB) and ActivityMeasurements.txt (10.1 MB) in your working directory. MeasurentMeans.txt is the final product of the script and holds the mean of each measurement as determined by Subject and their Activity. 
 
