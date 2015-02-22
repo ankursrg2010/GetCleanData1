@@ -26,7 +26,7 @@ setwd("/Users/nathansmith/GetCleanData1/")
 list.files(getwd())
 
 ## 1. Merges the training and the test sets to create one data set.
-## read in training and test sets
+## read in training and test set
 ## read in test set
 test_subject <- read.table("UCI HAR Dataset/test/subject_test.txt")
 test_set <- read.table("UCI HAR Dataset/test/X_test.txt")
